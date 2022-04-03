@@ -26,7 +26,7 @@
           </div>
           <div class="d-flex">
             <!--a href="#"><i class="fas fa-heart me-5"></i></a-->
-            <router-link to="cart" class="btn btn-md position-relative px-4"><i class="bi bi-cart3 fs-3"></i>
+            <router-link to="/cart" class="btn btn-md position-relative px-4"><i class="bi bi-cart3 fs-3"></i>
             <span class="position-absolute top-20 start-200 translate-small badge rounded-pill bg-danger">
     {{ cartData?.carts?.length }}<span class="visually-hidden">unread messages</span>
   </span></router-link>
